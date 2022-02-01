@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/basic-age-checker/static/css/main.073c9b0a.css",
+    "main.js": "/basic-age-checker/static/js/main.c2b5f974.js",
+    "static/js/787.267b1adf.chunk.js": "/basic-age-checker/static/js/787.267b1adf.chunk.js",
+    "index.html": "/basic-age-checker/index.html",
+    "main.073c9b0a.css.map": "/basic-age-checker/static/css/main.073c9b0a.css.map",
+    "main.c2b5f974.js.map": "/basic-age-checker/static/js/main.c2b5f974.js.map",
+    "787.267b1adf.chunk.js.map": "/basic-age-checker/static/js/787.267b1adf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c2b5f974.js"
+  ]
+}

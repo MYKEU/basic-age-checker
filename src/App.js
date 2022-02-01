@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Flex from './styled/Flex.styled';
+import { format, sub } from 'date-fns'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section style={{
+      background: '#212121',
+      color: 'white',
+      height: '100vh',
+      fontSize: '1.5rem'
+    }}>
+      <Flex justifyContent="center" alignItems="center" flexDirection="column" width="100vw" height="100vh">
+        <h1 style={{ marginBottom: 20 }}>18+ Age checker</h1>
+        <div>
+          <span>Born on: {format(sub(new Date(), { years: 18 }), 'do MMM yyyy')}</span>
+        </div>
+      </Flex>
+    </section>
   );
 }
 

@@ -12,8 +12,12 @@ function App() {
     }}>
       <Flex justifyContent="center" alignItems="center" flexDirection="column" width="100vw" height="100vh">
         <h1 style={{ marginBottom: 20 }}>18+ Age checker</h1>
-        <div>
-          <span>Born on: {format(sub(new Date(), { years: 18 }), 'do MMM yyyy')}</span>
+        <div style={{textAlign: 'center'}}>
+          <span style={{marginBottom: 10, display: 'inline-block'}}>
+            Born on or before:
+          </span>
+          <br />
+          {format(sub(new Date(), { years: 18 }), 'do MMM yyyy')}
         </div>
       </Flex>
     </section>
